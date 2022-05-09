@@ -16,23 +16,6 @@ export default function Contact() {
           <textarea name="message" id="message" cols="30" rows="10"></textarea>
           <button className="cta">Send email</button>
         </form>
-        {/* <div className="social">
-          <a
-            href="https://www.linkedin.com/in/thawan-silva-a07b85229/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-
-          <a
-            href="mailto:thawan.ben123@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div> */}
       </div>
     </section>
   );

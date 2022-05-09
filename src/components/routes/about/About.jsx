@@ -8,7 +8,6 @@ export default function About() {
         <div className="container grid">
           <div className="about-text">
             <h1>about.</h1>
-
             <p>
               Since november of 2021, I've been addicted for build beautiful
               responsive interfaces. When I'm not coding, I will be playing
@@ -18,7 +17,7 @@ export default function About() {
           <div className="about-img">
             <img
               loading="lazy"
-              src=".\src\assets\thawan2.png"
+              src="src/assets/thawan2.png"
               alt="thawan silva"
             />
           </div>

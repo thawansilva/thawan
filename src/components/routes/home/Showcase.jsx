@@ -38,7 +38,7 @@ export default function Showcase() {
           <div className="showcase-img">
             <img
               loading="lazy"
-              src=".\src\assets\thawan.png"
+              src="src/assets/thawan.png"
               alt="thawan silva"
             />
           </div>

@@ -11,7 +11,7 @@ export default function Projects() {
           <div className="card">
             <img
               loading="lazy"
-              src="src\assets\mookup\chapadadiamantina.png"
+              src="src/assets/mookup/chapadadiamantina.png"
               alt="chapada diamantina"
             />
             <h4>Chapada Diamantina Website</h4>
@@ -30,7 +30,7 @@ export default function Projects() {
           <div className="card">
             <img
               loading="lazy"
-              src="src\assets\mookup\ecommerce.png"
+              src="src/assets/mookup/ecommerce.png"
               alt="ecommerce"
             />
             <h4>eCommerce Website</h4>
@@ -47,7 +47,7 @@ export default function Projects() {
           <div className="card">
             <img
               loading="lazy"
-              src="src\assets\mookup\facebookclone.png"
+              src="src/assets/mookup/facebookclone.png"
               alt="facebook clone"
             />
             <h4>Facebook Clone</h4>

@@ -12,7 +12,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\chapadadiamantina.png"
+                  src="src/assets/project/chapadadiamantina.png"
                   alt="chapada diamantina"
                 />
               </div>
@@ -33,7 +33,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\ecommerce.png"
+                  src="src/assets/project/ecommerce.png"
                   alt="ecommerce"
                 />
               </div>
@@ -54,7 +54,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\facebookclone.png"
+                  src="src/assets/project/facebookclone.png"
                   alt="facebook"
                 />
               </div>
@@ -75,7 +75,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\parallax.png"
+                  src="src/assets/project/parallax.png"
                   alt="parallax"
                 />
               </div>
@@ -96,7 +96,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\bot.png"
+                  src="src/assets/project/bot.png"
                   alt="bot"
                 />
               </div>
@@ -117,7 +117,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\textanalyser.png"
+                  src="src/assets/project/textanalyser.png"
                   alt="text analyser"
                 />
               </div>
@@ -141,7 +141,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\register.png"
+                  src="src/assets/project/register.png"
                   alt="register"
                 />
               </div>
@@ -163,7 +163,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="src\assets\project\formulary.png"
+                  src="src/assets/project/formulary.png"
                   alt="formulary"
                 />
               </div>
