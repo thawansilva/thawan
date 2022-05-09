@@ -1,0 +1,241 @@
+/* Custom  */
+a.cta,
+.cta {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  margin: 5px 0;
+}
+a.cta:hover,
+.cta:hover {
+  background-color: var(--primary);
+  color: #fff;
+  box-shadow: 0px 0px 10px #333;
+}
+#showcase,
+#aboutme,
+#projects,
+#skills {
+  padding: 2.5em 0;
+}
+
+/* Showcase */
+#showcase {
+  position: relative;
+}
+#showcase .showcase-text {
+  grid-column: 1/5;
+  align-self: center;
+}
+#showcase h1 {
+  color: #333;
+  font-size: 2rem;
+}
+#showcase p {
+  margin: 0.25em 0;
+}
+#showcase .showcase-img {
+  grid-column: 6/11;
+}
+#showcase .showcase-text a + a {
+  margin-left: 15px;
+}
+#showcase .showcase-text i {
+  font-size: 2em;
+}
+#showcase a.cta {
+  margin-top: 15px;
+}
+#showcase .showcase-img img {
+  width: 120%;
+}
+
+/* About me */
+#aboutme {
+  position: relative;
+  background-image: url("/src/assets/backgrounds/background-bubbles4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#aboutme .aboutme-img {
+  grid-column: 1/11;
+}
+#aboutme .aboutme-img img {
+  width: 110%;
+}
+#aboutme .aboutme-text {
+  grid-column: 1/11;
+  grid-row: 1;
+  text-align: center;
+}
+#aboutme .aboutme-text h2 {
+  font-size: 1.75rem;
+}
+
+/* Projects  */
+#projects {
+  position: relative;
+  background-image: url("/src/assets/backgrounds/background-bubbles.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#projects h2 {
+  font-size: 2rem;
+}
+#projects .grid {
+  place-items: stretch;
+}
+#projects .grid,
+#skills .grid {
+  grid-template-columns: repeat(9, 1fr);
+  gap: 30px;
+}
+#projects .cards {
+  margin: 20px 0px;
+}
+#projects .card {
+  grid-column: 1/10;
+  width: 250px;
+  padding: 0 12px 12px 12px;
+  margin: 0px auto;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  text-align: left;
+}
+
+#projects .card h4 {
+  margin-top: 5px;
+  font-size: 1.25rem;
+}
+
+#projects .container {
+  text-align: center;
+}
+
+#projects .card:hover {
+  box-shadow: var(--primary) 0px 0px 10px;
+}
+/* Skills */
+#skills {
+  text-align: center;
+  background-image: url("/src/assets/backgrounds/background-bubbles3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#skills .skills-cards {
+  margin: 20px 0;
+}
+
+#skills .skill-card {
+  grid-column: span 4;
+}
+
+/* Small tables styles */
+@media screen and (min-width: 620px) {
+  #showcase .showcase-text {
+    grid-column: 1/6;
+  }
+
+  #showcase h1 {
+    font-size: 2.75rem;
+  }
+  #showcase .showcase-text i {
+    font-size: 2.25em;
+  }
+  #showcase h2,
+  #aboutme .aboutme-text h2,
+  #projects .grid h2,
+  #skills h2 {
+    font-size: 1.75rem;
+  }
+  #aboutme .aboutme-img {
+    grid-column: 1/6;
+  }
+  #aboutme .aboutme-text {
+    grid-column: 7/11;
+    text-align: left;
+    align-self: center;
+  }
+
+  #projecs .card {
+    width: 40px;
+  }
+  #projects .card h4 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Large tables & laptops styles */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+
+  #showcase p {
+    font-size: 1.125em;
+  }
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  #showcase h2,
+  #aboutme .aboutme-text h2,
+  #projects .grid h2,
+  #skills h2 {
+    font-size: 2.25rem;
+  }
+  #showcase .showcase-img img {
+    width: 100%;
+  }
+  #showcase .showcase-text i {
+    font-size: 2.5em;
+  }
+  #projects .card {
+    grid-column: span 3;
+  }
+
+  #skills .skill-card {
+    grid-column: span 3;
+  }
+}
+/* Desktop Styles */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+  #showcase p {
+    font-size: 1.25em;
+  }
+  #showcase h1 {
+    font-size: 3.25rem;
+  }
+  #showcase h2,
+  #aboutme .aboutme-text h2,
+  #projects h2,
+  #skills h2 {
+    font-size: 2.75rem;
+  }
+  #showcase .showcase-img {
+    grid-column: 7/11;
+  }
+  #showcase .showcase-img img {
+    width: 90%;
+    float: right;
+  }
+  #showcase .showcase-img img {
+    width: 100%;
+  }
+  #aboutme .aboutme-img {
+    grid-column: 1/5;
+  }
+  #aboutme .aboutme-text {
+    grid-column: 6/11;
+  }
+  #projects .card h4 {
+    font-size: 2rem;
+  }
+}

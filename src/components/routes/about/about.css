@@ -1,0 +1,55 @@
+#about {
+  padding: 2.5em 0;
+  position: relative;
+}
+#about .grid {
+  place-items: stretch;
+}
+#about h1 {
+  color: #333;
+  font-size: 3.5rem;
+}
+
+#about .about-text {
+  grid-column: 1/5;
+  align-self: center;
+}
+#about .about-img {
+  grid-column: 6/11;
+}
+#about .about-img img {
+  width: 120%;
+}
+@media screen and (min-width: 620px) {
+  #about h1 {
+    font-size: 5rem;
+  }
+  #about .about-img img {
+    width: 100%;
+  }
+  #history h2 {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #about h1 {
+    font-size: 6rem;
+  }
+  #history h2 {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about h1 {
+    font-size: 7rem;
+  }
+  #history h2 {
+    font-size: 2.75rem;
+  }
+  #about .about-text {
+    grid-column: 1/6;
+  }
+  #about .about-img {
+    grid-column: 7/11;
+  }
+}

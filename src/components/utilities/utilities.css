@@ -1,0 +1,132 @@
+header {
+  padding: 20px 0;
+  box-shadow: 0px 2px 5px #0e58f84f;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+header h2 {
+  display: none;
+  font-size: 1.5rem;
+}
+header nav .links {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  margin: 0px 10px;
+  padding: 10px 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+header nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary);
+  bottom: 0%;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+header nav a:hover::after {
+  width: 50%;
+}
+
+/* Contact */
+#contact {
+  padding: 2.5em 0;
+  text-align: center;
+  background-image: url("/src/assets/backgrounds/background-bubbles2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#contact .social a {
+  margin-left: 15px;
+}
+#contact .title {
+  font-size: 2.25rem;
+}
+#contact .subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+#contact form {
+  text-align: center;
+}
+#contact form label,
+#contact form input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#contact form label {
+  text-align: left;
+}
+#contact form input {
+  height: 1.75rem;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+#contact textarea {
+  font-family: "Roboto Slab", serif;
+  padding: 5px;
+}
+
+#contact form button {
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+#contact a {
+  font-size: 1.25rem;
+}
+
+#contact .social {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  box-shadow: 0px -2px 5px #0e58f84f;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Small tables styles */
+@media screen and (min-width: 620px) {
+  header .logo {
+    display: block;
+  }
+  header .flex {
+    justify-content: space-between;
+  }
+  #contact .title {
+    font-size: 3rem;
+  }
+  #contact .subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+/* Large tables & laptops styles */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+  #contact i {
+    font-size: 3rem;
+  }
+}
+/* Desktop Styles */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
