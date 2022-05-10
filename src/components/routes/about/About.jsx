@@ -17,7 +17,7 @@ export default function About() {
           <div className="about-img">
             <img
               loading="lazy"
-              src="src/assets/thawan2.png"
+              src="/src/assets/thawan2.png"
               alt="thawan silva"
             />
           </div>

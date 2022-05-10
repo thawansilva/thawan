@@ -5,12 +5,12 @@ import Navbar from "./components/utilities/Navbar";
 
 function App() {
   return (
-    <div className="app">
+    <>
       <Navbar />
       <Outlet />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

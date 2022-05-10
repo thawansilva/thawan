@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div className="aboutme-img">
             <img
               loading="lazy"
-              src="src/assets/thawan2.png"
+              src="/src/assets/thawan2.png"
               alt="thawan silva"
             />
           </div>
