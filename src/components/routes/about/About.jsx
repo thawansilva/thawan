@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-
+import thawan2 from "../../../assets/thawan2.png";
 export default function About() {
   return (
     <>
@@ -15,11 +15,7 @@ export default function About() {
             </p>
           </div>
           <div className="about-img">
-            <img
-              loading="lazy"
-              src="/src/assets/thawan2.png"
-              alt="thawan silva"
-            />
+            <img loading="lazy" src={thawan2} alt="thawan silva" />
           </div>
         </div>
       </section>

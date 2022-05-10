@@ -1,5 +1,14 @@
 import React from "react";
 import "./projects.css";
+import diamantina from "../../../assets/project/chapadadiamantina.png";
+import ecommerce from "../../../assets/project/ecommerce.png";
+import facebookclone from "../../../assets/project/facebookclone.png";
+import parallax from "../../../assets/project/parallax.png";
+import bot from "../../../assets/project/bot.png";
+import textanalyser from "../../../assets/project/textanalyser.png";
+import register from "../../../assets/project/register.png";
+import formulary from "../../../assets/project/formulary.png";
+
 export default function Projects() {
   return (
     <>
@@ -12,7 +21,7 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/chapadadiamantina.png"
+                  src={diamantina}
                   alt="chapada diamantina website image"
                 />
               </div>
@@ -31,11 +40,7 @@ export default function Projects() {
             </div>
             <div className="card-project">
               <div className="card-img">
-                <img
-                  loading="lazy"
-                  src="/src/assets/project/ecommerce.png"
-                  alt="ecommerce"
-                />
+                <img loading="lazy" src={ecommerce} alt="ecommerce" />
               </div>
               <div className="card-text">
                 <h3>eCommerce website</h3>
@@ -54,8 +59,8 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/facebookclone.png"
-                  alt="facebook"
+                  src={facebookclone}
+                  alt="facebook clone image"
                 />
               </div>
               <div className="card-text">
@@ -75,15 +80,15 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/parallax.png"
-                  alt="parallax"
+                  src={parallax}
+                  alt="parallax website image"
                 />
               </div>
               <div className="card-text">
                 <h3>Parallax</h3>
                 <p>Simple Parallax website</p>
                 <a
-                  href="https://registroentrada.netlify.app/"
+                  href="https://projectparallax.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta"
@@ -94,17 +99,13 @@ export default function Projects() {
             </div>
             <div className="card-project">
               <div className="card-img">
-                <img
-                  loading="lazy"
-                  src="/src/assets/project/bot.png"
-                  alt="bot"
-                />
+                <img loading="lazy" src={bot} alt="bot website image" />
               </div>
               <div className="card-text">
                 <h3>Bot Landing Page</h3>
                 <p>A simple and responsive landing page</p>
                 <a
-                  href="https://projetoform.netlify.app/"
+                  href="https://projetobot.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta"
@@ -117,8 +118,8 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/textanalyser.png"
-                  alt="text analyser"
+                  src={textanalyser}
+                  alt="text analyser image"
                 />
               </div>
               <div className="card-text">
@@ -141,8 +142,8 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/register.png"
-                  alt="register"
+                  src={register}
+                  alt="register website image"
                 />
               </div>
               <div className="card-text">
@@ -163,8 +164,8 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src="/src/assets/project/formulary.png"
-                  alt="formulary"
+                  src={formulary}
+                  alt="formulary website image"
                 />
               </div>
               <div className="card-text">

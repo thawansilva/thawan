@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import thawan from "../../../assets/thawan.png";
 
 export default function Showcase() {
   return (
@@ -16,14 +17,14 @@ export default function Showcase() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
                 href="https://github.com/thawansilva"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </div>
             <a
@@ -36,11 +37,7 @@ export default function Showcase() {
             </a>
           </div>
           <div className="showcase-img">
-            <img
-              loading="lazy"
-              src="/src/assets/thawan.png"
-              alt="thawan silva"
-            />
+            <img loading="lazy" src={thawan} alt="thawan silva" />
           </div>
         </div>
       </section>

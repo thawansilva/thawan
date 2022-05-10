@@ -38,10 +38,6 @@ header nav a:hover::after {
 #contact {
   padding: 2.5em 0;
   text-align: center;
-  background-image: url("/src/assets/backgrounds/background-bubbles2.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 #contact .social a {
   margin-left: 15px;
@@ -53,37 +49,7 @@ header nav a:hover::after {
   font-size: 1.5rem;
   font-style: italic;
 }
-#contact form {
-  text-align: center;
-}
-#contact form label,
-#contact form input,
-textarea,
-button {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-}
-#contact form label {
-  text-align: left;
-}
-#contact form input {
-  height: 1.75rem;
-  margin-bottom: 15px;
-  padding-left: 5px;
-}
-#contact textarea {
-  font-family: "Roboto Slab", serif;
-  padding: 5px;
-}
 
-#contact form button {
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  margin-top: 15px;
-  font-size: 1rem;
-}
 #contact a {
   font-size: 1.25rem;
 }

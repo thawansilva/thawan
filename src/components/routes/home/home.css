@@ -54,7 +54,7 @@ a.cta:hover,
 /* About me */
 #aboutme {
   position: relative;
-  background-image: url("/src/assets/backgrounds/background-bubbles4.svg");
+  background-image: url("/src/assets/backgrounds/background-bubbles3.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -68,7 +68,7 @@ a.cta:hover,
 #aboutme .aboutme-text {
   grid-column: 1/11;
   grid-row: 1;
-  text-align: center;
+  text-align: left;
 }
 #aboutme .aboutme-text h2 {
   font-size: 1.75rem;
@@ -88,8 +88,7 @@ a.cta:hover,
 #projects .grid {
   place-items: stretch;
 }
-#projects .grid,
-#skills .grid {
+#projects .grid {
   grid-template-columns: repeat(9, 1fr);
   gap: 30px;
 }
@@ -121,17 +120,21 @@ a.cta:hover,
 /* Skills */
 #skills {
   text-align: center;
-  background-image: url("/src/assets/backgrounds/background-bubbles3.svg");
+  background-image: url("/src/assets/backgrounds/background-bubbles2.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+#skills .grid {
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
 }
 #skills .skills-cards {
   margin: 20px 0;
 }
 
 #skills .skill-card {
-  grid-column: span 4;
+  grid-column: span 6;
 }
 
 /* Small tables styles */
@@ -157,7 +160,6 @@ a.cta:hover,
   }
   #aboutme .aboutme-text {
     grid-column: 7/11;
-    text-align: left;
     align-self: center;
   }
 
@@ -166,6 +168,9 @@ a.cta:hover,
   }
   #projects .card h4 {
     font-size: 1.75rem;
+  }
+  #skills .skill-card {
+    grid-column: span 4;
   }
 }
 
@@ -195,10 +200,6 @@ a.cta:hover,
     font-size: 2.5em;
   }
   #projects .card {
-    grid-column: span 3;
-  }
-
-  #skills .skill-card {
     grid-column: span 3;
   }
 }
