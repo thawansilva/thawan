@@ -3,11 +3,9 @@ import "./projects.css";
 import diamantina from "../../../assets/project/chapadadiamantina.png";
 import ecommerce from "../../../assets/project/ecommerce.png";
 import facebookclone from "../../../assets/project/facebookclone.png";
-import parallax from "../../../assets/project/parallax.png";
-import bot from "../../../assets/project/bot.png";
 import textanalyser from "../../../assets/project/textanalyser.png";
-import register from "../../../assets/project/register.png";
 import formulary from "../../../assets/project/formulary.png";
+import randomuser from "../../../assets/project/randomuser.png";
 
 export default function Projects() {
   return (
@@ -17,6 +15,27 @@ export default function Projects() {
           <h1>projects.</h1>
           <p className="subtitle">Check out my latest personal projects.</p>
           <div className="grid">
+            <div className="card-project">
+              <div className="card-img">
+                <img
+                  loading="lazy"
+                  src={randomuser}
+                  alt="chapada diamantina website image"
+                />
+              </div>
+              <div className="card-text">
+                <h3>Random Users Filter</h3>
+                <p>Filter application made with React, Hooks and fetch API</p>
+                <a
+                  href="https://randomusersfilter.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta"
+                >
+                  See Project
+                </a>
+              </div>
+            </div>
             <div className="card-project">
               <div className="card-img">
                 <img
@@ -80,44 +99,6 @@ export default function Projects() {
               <div className="card-img">
                 <img
                   loading="lazy"
-                  src={parallax}
-                  alt="parallax website image"
-                />
-              </div>
-              <div className="card-text">
-                <h3>Parallax</h3>
-                <p>Simple Parallax website</p>
-                <a
-                  href="https://projectparallax.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div className="card-project">
-              <div className="card-img">
-                <img loading="lazy" src={bot} alt="bot website image" />
-              </div>
-              <div className="card-text">
-                <h3>Bot Landing Page</h3>
-                <p>A simple and responsive landing page</p>
-                <a
-                  href="https://projetobot.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div className="card-project">
-              <div className="card-img">
-                <img
-                  loading="lazy"
                   src={textanalyser}
                   alt="text analyser image"
                 />
@@ -138,28 +119,6 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            <div className="card-project">
-              <div className="card-img">
-                <img
-                  loading="lazy"
-                  src={register}
-                  alt="register website image"
-                />
-              </div>
-              <div className="card-text">
-                <h3>Entry Register</h3>
-                <p>Calculate the amount of people and cash</p>
-                <a
-                  href="https://registroentrada.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-
             <div className="card-project">
               <div className="card-img">
                 <img

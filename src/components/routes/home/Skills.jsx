@@ -5,7 +5,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container">
         <h2 className="title">skills</h2>
-        <p>Here are my skills as a Front-end Developer</p>
+        <p>Here are my skills as a Front end Developer</p>
         <div className="skills-cards grid">
           <div className="skill-card">
             <h4 className="title">html5</h4>
