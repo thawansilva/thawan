@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import diamantina from "../../../assets/mookup/chapadadiamantina.png";
-import ecommerce from "../../../assets/mookup/ecommerce.png";
+import socialmovie from "../../../assets/mookup/socialmovie.png";
 import randomuser from "../../../assets/mookup/randomuser.png";
 
 export default function Projects() {
@@ -11,6 +11,19 @@ export default function Projects() {
         <h2 className="title">projects</h2>
         <p>Here are a few projects that I developed</p>
         <div className="cards grid">
+          <div className="card">
+            <img loading="lazy" src={socialmovie} alt="social movie image" />
+            <h4>Social Movie</h4>
+            <p>Social media where you can search and see movie details</p>
+            <a
+              href="https://socialmovie.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta"
+            >
+              See project
+            </a>
+          </div>
           <div className="card">
             <img loading="lazy" src={randomuser} alt="random user image" />
             <h4>Random Users Filter</h4>
@@ -36,19 +49,6 @@ export default function Projects() {
             </p>
             <a
               href="https://diamantina.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta"
-            >
-              See project
-            </a>
-          </div>
-          <div className="card">
-            <img loading="lazy" src={ecommerce} alt="ecommerce image" />
-            <h4>eCommerce Website</h4>
-            <p>Responsive eCommerce website about male and female clothes.</p>
-            <a
-              href="https://ecommerceclothes.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="cta"

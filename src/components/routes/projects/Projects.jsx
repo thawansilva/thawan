@@ -4,7 +4,7 @@ import diamantina from "../../../assets/project/chapadadiamantina.png";
 import ecommerce from "../../../assets/project/ecommerce.png";
 import facebookclone from "../../../assets/project/facebookclone.png";
 import textanalyser from "../../../assets/project/textanalyser.png";
-import formulary from "../../../assets/project/formulary.png";
+import socialmovie from "../../../assets/project/socialmovie.png";
 import randomuser from "../../../assets/project/randomuser.png";
 
 export default function Projects() {
@@ -15,6 +15,27 @@ export default function Projects() {
           <h1>projects.</h1>
           <p className="subtitle">Check out my latest personal projects.</p>
           <div className="grid">
+            <div className="card-project">
+              <div className="card-img">
+                <img
+                  loading="lazy"
+                  src={socialmovie}
+                  alt="social movie image"
+                />
+              </div>
+              <div className="card-text">
+                <h3>Social Movie</h3>
+                <p>Social media of the movies</p>
+                <a
+                  href="https://socialmovie.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta"
+                >
+                  See Project
+                </a>
+              </div>
+            </div>
             <div className="card-project">
               <div className="card-img">
                 <img
@@ -111,27 +132,6 @@ export default function Projects() {
                 </p>
                 <a
                   href="https://analisadortexto.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta"
-                >
-                  See Project
-                </a>
-              </div>
-            </div>
-            <div className="card-project">
-              <div className="card-img">
-                <img
-                  loading="lazy"
-                  src={formulary}
-                  alt="formulary website image"
-                />
-              </div>
-              <div className="card-text">
-                <h3>Formulary</h3>
-                <p>A formulary project</p>
-                <a
-                  href="https://formproject.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta"
