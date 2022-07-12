@@ -4,12 +4,13 @@ a.cta,
   display: inline-block;
   padding: 0.5em 1em;
   border-radius: 5px;
+  color: #fff;
+  background: var(--primary);
   border: 1px solid var(--primary);
   margin: 5px 0;
 }
 a.cta:hover,
 .cta:hover {
-  background-color: var(--primary);
   color: #fff;
   box-shadow: 0px 0px 10px #333;
 }
