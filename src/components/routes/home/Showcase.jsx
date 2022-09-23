@@ -28,7 +28,7 @@ export default function Showcase() {
               </a>
             </div>
             <a
-              href="https://www.canva.com/design/DAE_K6Gl5Oc/Lombv626qpNWVkuvSva6Mw/view?utm_content=DAE_K6Gl5Oc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              href="https://drive.google.com/file/d/1D23vA7PiMRgNF_rg1sMlKdXnzLyaFtKB/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cta"
