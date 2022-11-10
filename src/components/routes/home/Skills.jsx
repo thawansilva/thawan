@@ -24,24 +24,12 @@ export default function Skills() {
             <i className="fa-brands fa-react"></i>
           </div>
           <div className="skill-card">
-            <h4 className="title">responsive design</h4>
-            <i className="fa-solid fa-desktop"></i>
+            <h4 className="title">Git</h4>
+            <i class="fa-brands fa-git-alt"></i>
           </div>
           <div className="skill-card">
             <h4 className="title">mobile-friendly</h4>
             <i className="fa-solid fa-mobile"></i>
-          </div>
-          <div className="skill-card">
-            <h4 className="title">positive enviroment</h4>
-            <i className="fa-solid fa-face-smile-beam"></i>
-          </div>
-          <div className="skill-card">
-            <h4 className="title">nice communication</h4>
-            <i className="fa-solid fa-comment"></i>
-          </div>
-          <div className="skill-card">
-            <h4 className="title">team work</h4>
-            <i className="fa-solid fa-people-group"></i>
           </div>
         </div>
       </div>

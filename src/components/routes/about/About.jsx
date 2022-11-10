@@ -34,6 +34,21 @@ export default function About() {
               problems and challenges;
             </p>
           </div>
+          <div className="about-text">
+            <h2>What have I done so far?</h2>
+            <p>
+              Since January I have been developing landing pages and static
+              websites using HTML, CSS and TailwindCSS, and others projects
+              using React and consuming API Rest services;
+            </p>
+          </div>
+          <div className="about-text">
+            <h2>What I am looking for?</h2>
+            <p>
+              My main objective is to have a first oportunity to show my skills
+              in a professional experience and I am preparing myself for this;
+            </p>
+          </div>
         </div>
       </section>
     </>

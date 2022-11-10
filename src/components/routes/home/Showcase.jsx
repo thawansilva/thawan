@@ -13,7 +13,7 @@ export default function Showcase() {
             <p>I build interfaces and responsive websites</p>
             <div className="social">
               <a
-                href="https://www.linkedin.com/in/thawan-silva-a07b85229/"
+                href="https://www.linkedin.com/in/thawansilva/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
