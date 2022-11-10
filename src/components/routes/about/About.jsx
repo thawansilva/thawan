@@ -24,14 +24,11 @@ export default function About() {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              My name is Thawan, I am 22 years old and I was born in Boa
+              My name is Thawan, I am 23 years old and I was born in Boa
               Vista/RR. I am a mix of introvert and extrovert person, who loves
-              playing guitar, eating cake and watching sports. I also love
-              traveling, meeting new places, people and cultures, it becomes me
-              a better and open minded person. <br /> I am a sympathic,
-              adventurous, communicative, collaborative, energetic, dreamer,
-              determined, hardworking and responsible person, who love solving
-              problems and challenges;
+              playing guitar, travelling and meeting new people and cultures.
+              Many people say that I am very charismatic, energetic and cheerful
+              person.
             </p>
           </div>
           <div className="about-text">
