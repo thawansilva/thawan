@@ -1,0 +1,189 @@
+import diamantina from "../../assets/project/chapadadiamantina.png";
+import ecommerce from "../../assets/project/ecommerce.png";
+import facebookclone from "../../assets/project/facebookclone.png";
+import textanalyser from "../../assets/project/textanalyser.png";
+import socialmovie from "../../assets/project/socialmovie.png";
+import randomuser from "../../assets/project/randomuser.png";
+const AllProjects = () => {
+  return (
+    <section id="allprojects">
+      <div className="container">
+        <h1>projects.</h1>
+        <p className="subtitle">Check out my latest personal projects.</p>
+        <div className="grid">
+          <div className="card-project">
+            <div className="card-img">
+              <img loading="lazy" src={socialmovie} alt="social movie image" />
+            </div>
+            <div className="card-text">
+              <h3>Social Movie</h3>
+              <p>Social media of the movies</p>
+              <a
+                href="https://socialmovie.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/Social_Movie"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card-project">
+            <div className="card-img">
+              <img
+                loading="lazy"
+                src={randomuser}
+                alt="chapada diamantina website image"
+              />
+            </div>
+            <div className="card-text">
+              <h3>Random Users Filter</h3>
+              <p>Filter application made with React, Hooks and fetch API</p>
+              <a
+                href="https://randomusersfilter.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/Random-Users"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card-project">
+            <div className="card-img">
+              <img
+                loading="lazy"
+                src={diamantina}
+                alt="chapada diamantina website image"
+              />
+            </div>
+            <div className="card-text">
+              <h3>Chapada Diamantina</h3>
+              <p>Chapada Diamantina website made with HTML and CSS</p>
+              <a
+                href="https://diamantina.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/ChapadaDiamantinaWebSite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card-project">
+            <div className="card-img">
+              <img loading="lazy" src={ecommerce} alt="ecommerce" />
+            </div>
+            <div className="card-text">
+              <h3>eCommerce website</h3>
+              <p>eCommerce made with HTML and CSS</p>
+              <a
+                href="https://ecommerceclothes.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/eCommerceWebsite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card-project">
+            <div className="card-img">
+              <img
+                loading="lazy"
+                src={facebookclone}
+                alt="facebook clone image"
+              />
+            </div>
+            <div className="card-text">
+              <h3>Facebook Clone</h3>
+              <p>Facebook login clone made with HTML and CSS</p>
+              <a
+                href="https://facebookproject.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/ProjetoFacebook"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card-project">
+            <div className="card-img">
+              <img
+                loading="lazy"
+                src={textanalyser}
+                alt="text analyser image"
+              />
+            </div>
+            <div className="card-text">
+              <h3>Text analyser</h3>
+              <p>
+                Return the number of words, characters, vowels and consoants in
+                a text
+              </p>
+              <a
+                href="https://analisadortexto.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                See Project
+              </a>
+              <a
+                href="https://github.com/thawansilva/AnalisadorDeTexto"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AllProjects;

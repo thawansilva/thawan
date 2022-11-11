@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import thawan2 from "../../../assets/thawan2.png";
+import thawan2 from "../../assets/thawan2.png";
 
 export default function AboutMe() {
   return (
@@ -14,7 +14,7 @@ export default function AboutMe() {
           <div className="aboutme-text">
             <h2>Hi, I'm Thawan. It's a pleasure to meet you</h2>
             <p>
-              I am 22 years old, I am from Roraima state in Brazil, Since the
+              I am 23 years old, I am from Roraima state in Brazil, Since the
               end of 2021 I've been studying and building own projects pursuing
               a constant improvement of my skills
             </p>

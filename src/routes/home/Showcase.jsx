@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import thawan from "../../../assets/thawan.png";
+import thawan from "../../assets/thawan.png";
 
 export default function Showcase() {
   return (

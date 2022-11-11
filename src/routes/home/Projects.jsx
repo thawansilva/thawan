@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import diamantina from "../../../assets/mookup/chapadadiamantina.png";
-import socialmovie from "../../../assets/mookup/socialmovie.png";
-import randomuser from "../../../assets/mookup/randomuser.png";
+import diamantina from "../../assets/mookup/chapadadiamantina.png";
+import socialmovie from "../../assets/mookup/socialmovie.png";
+import randomuser from "../../assets/mookup/randomuser.png";
 
-export default function Projects() {
+export function Projects() {
   return (
     <section id="projects">
       <div className="container">

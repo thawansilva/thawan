@@ -8,10 +8,10 @@ export default function Contact() {
         <h2 className="title">Let's work together? :)</h2>
         <p className="subtitle">Contact me</p>
         <div className="social">
-          <a href="mailto:thawan.ben123@gmail.com">
+          <a href="mailto:twnpsilva@gmail.com">
             <i className="fa-solid fa-envelope"></i>
           </a>
-          <a href="https://www.linkedin.com/in/thawan-silva-a07b85229/">
+          <a href="https://www.linkedin.com/in/thawansilva/">
             <i className="fa-brands fa-linkedin"></i>
           </a>
         </div>

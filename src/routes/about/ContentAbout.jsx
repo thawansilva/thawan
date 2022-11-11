@@ -1,7 +1,5 @@
-import React from "react";
-import "./about.css";
-import thawan2 from "../../../assets/thawan2.png";
-export default function About() {
+import thawan2 from "../../assets/thawan2.png";
+const ContentText = () => {
   return (
     <>
       <section id="about">
@@ -10,8 +8,7 @@ export default function About() {
             <h1>about.</h1>
             <p>
               Since november of 2021, I've been addicted for build beautiful
-              responsive interfaces. When I'm not coding, I will be playing
-              guitar, cooking or watching series.
+              responsive interfaces.
             </p>
           </div>
           <div className="about-img">
@@ -50,4 +47,6 @@ export default function About() {
       </section>
     </>
   );
-}
+};
+
+export default ContentText;

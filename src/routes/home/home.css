@@ -125,17 +125,23 @@ a.cta:hover,
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
-#skills .grid {
-  grid-template-columns: repeat(12, 1fr);
-  gap: 20px;
+
+#skills .carousel {
+  cursor: grab;
+  overflow: hidden;
 }
 #skills .skills-cards {
+  display: flex;
   margin: 20px 0;
 }
 
 #skills .skill-card {
-  grid-column: span 6;
+  min-height: 200px;
+  min-width: 200px;
 }
 
 /* Small tables styles */
