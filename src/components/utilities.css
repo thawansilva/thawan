@@ -39,9 +39,7 @@ header nav a:hover::after {
   padding: 2.5em 0;
   text-align: center;
 }
-#contact .social a {
-  margin-left: 15px;
-}
+
 #contact .title {
   font-size: 2.25rem;
 }
@@ -56,6 +54,52 @@ header nav a:hover::after {
 
 #contact .social {
   text-align: center;
+}
+
+form {
+  padding: 15px 0px;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+label,
+textarea {
+  display: block;
+}
+
+label {
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+  border: #333;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+textarea {
+  font-family: sans-serif;
+  font-weight: lighter;
+  height: 125px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: var(--secundary);
+  background: var(--light);
+  border: 1px solid var(--primary);
+  margin: 5px 0;
+  transition: 0.1s;
+}
+button:hover {
+  box-shadow: 0px 0px 10px var(--light);
 }
 
 /* Footer */
@@ -79,6 +123,21 @@ footer {
   #contact .subtitle {
     font-size: 1.75rem;
   }
+  form {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  form > div + div {
+    width: 275px;
+  }
+  textarea {
+    width: 100%;
+  }
 }
 
 /* Large tables & laptops styles */
@@ -86,13 +145,20 @@ footer {
   body {
     font-size: 18px;
   }
-  #contact i {
-    font-size: 3rem;
+
+  form > div + div {
+    width: 375px;
   }
 }
 /* Desktop Styles */
 @media screen and (min-width: 1200px) {
   body {
     font-size: 20px;
+  }
+  form > div + div {
+    width: 575px;
+  }
+  textarea {
+    height: 150px;
   }
 }
