@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import thawan2 from "../../assets/thawan2.png";
 
 export default function AboutMe() {
   return (
@@ -9,7 +8,7 @@ export default function AboutMe() {
       <section id="aboutme">
         <div className="container grid">
           <div className="aboutme-img">
-            <img loading="lazy" src={thawan2} alt="thawan silva" />
+            <img loading="lazy" src="/img/thawan2.png" alt="thawan silva" />
           </div>
           <div className="aboutme-text">
             <h2>Hi, I'm Thawan. It's a pleasure to meet you</h2>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.css";
-import thawan from "../../assets/thawan.png";
 
 export default function Showcase() {
   return (
@@ -28,7 +27,7 @@ export default function Showcase() {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1D23vA7PiMRgNF_rg1sMlKdXnzLyaFtKB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nQBYsxgKjx3xaBd_2zp5ju15_DiM7kDj/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cta"
@@ -37,7 +36,7 @@ export default function Showcase() {
             </a>
           </div>
           <div className="showcase-img">
-            <img loading="lazy" src={thawan} alt="thawan silva" />
+            <img loading="lazy" src="/img/thawan.png" alt="thawan silva" />
           </div>
         </div>
       </section>

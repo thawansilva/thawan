@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import notFound from "../../assets/notfound/notFound.svg";
 import "./notfound.css";
 const NotFound = () => {
   return (
@@ -13,7 +12,11 @@ const NotFound = () => {
               <Link to="/">Go to Homepage</Link>
             </p>
           </div>
-          <img src={notFound} alt="Not Found image" />
+          <img
+            loading="lazy"
+            src="/img/notfound/notFound.svg"
+            alt="Not Found image"
+          />
         </div>
       </div>
     </>

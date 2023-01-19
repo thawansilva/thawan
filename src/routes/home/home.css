@@ -55,7 +55,7 @@ a.cta:hover,
 /* About me */
 #aboutme {
   position: relative;
-  background-image: url("/src/assets/backgrounds/background-bubbles3.svg");
+  background-image: url("/img/backgrounds/background-bubbles3.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -78,7 +78,7 @@ a.cta:hover,
 /* Projects  */
 #projects {
   position: relative;
-  background-image: url("/src/assets/backgrounds/background-bubbles.svg");
+  background-image: url("/img/backgrounds/background-bubbles.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -115,13 +115,10 @@ a.cta:hover,
   text-align: center;
 }
 
-#projects .card:hover {
-  box-shadow: var(--primary) 0px 0px 10px;
-}
 /* Skills */
 #skills {
   text-align: center;
-  background-image: url("/src/assets/backgrounds/background-bubbles2.svg");
+  background-image: url("/img/backgrounds/background-bubbles2.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
