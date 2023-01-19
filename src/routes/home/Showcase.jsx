@@ -27,7 +27,7 @@ export default function Showcase() {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1nQBYsxgKjx3xaBd_2zp5ju15_DiM7kDj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1r25-uduxl8PFj7uMd5ouYNXlFo8rFygB/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cta"
