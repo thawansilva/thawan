@@ -1,4 +1,3 @@
-import thawan2 from "../../assets/thawan2.png";
 const ContentText = () => {
   return (
     <>
@@ -12,7 +11,7 @@ const ContentText = () => {
             </p>
           </div>
           <div className="about-img">
-            <img loading="lazy" src={thawan2} alt="thawan silva" />
+            <img loading="lazy" src="/img/thawan2.png" alt="thawan silva" />
           </div>
         </div>
       </section>
