@@ -1,4 +1,4 @@
-import products from "../../../data/projects.json";
+import projects from "../../../data/projects.json";
 
 const AllProjects = () => {
   return (
@@ -7,7 +7,7 @@ const AllProjects = () => {
         <h1>projects.</h1>
         <p className="subtitle">Check out my latest personal projects.</p>
         <div className="grid">
-          {products.map((item, index) => (
+          {projects.map((item, index) => (
             <div key={index} className="card-project">
               <div className="card-img">
                 <img loading="lazy" src={item.urlImg} alt={item.alt} />
@@ -34,7 +34,6 @@ const AllProjects = () => {
               </div>
             </div>
           ))}
-          {/* imagens de background */}
         </div>
       </div>
     </section>
