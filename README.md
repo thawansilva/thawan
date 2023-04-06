@@ -2,7 +2,7 @@
 
 Portfolio built with React, React Router and CSS;
 
-## Basic Overview - [Live Demo](https://https://thawan.netlify.app/)
+## Basic Overview - [Live Demo](https://thawan.netlify.app/)
 
 ## Build/Run
 
