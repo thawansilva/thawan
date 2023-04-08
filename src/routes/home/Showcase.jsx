@@ -26,12 +26,7 @@ export default function Showcase() {
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
-            <a
-              href="https://drive.google.com/file/d/1aiGiK8WQqWL7eBxUpHzCBzbTEN7rLORi/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta"
-            >
+            <a href="/files/CV.pdf" download="Thawan-CV.pdf" className="cta">
               CV Here
             </a>
           </div>
