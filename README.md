@@ -1,6 +1,6 @@
-# Thawan Silva | Front end Developer Portfolio
+# Thawan Silva | Software Engineer Portfolio
 
-Portfolio built with React, React Router and CSS;
+Portfolio built with React, React Router and TailwindCSS;
 
 ## Basic Overview - [Live Demo](https://thawan.netlify.app/)
 

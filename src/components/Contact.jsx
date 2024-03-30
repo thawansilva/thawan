@@ -1,13 +1,14 @@
 import React from "react";
 import Form from "./Formulary/Form";
-import "./utilities.css";
 
 export default function Contact() {
   return (
-    <section id="contact">
-      <div className="container">
-        <h2 className="title">Let's work together? :)</h2>
-        <p className="subtitle">Contact me</p>
+    <section className="my-8">
+      <div className="container px-8 mx-auto text-center">
+        <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl xl:ml-6">
+          Let's work together? :)
+        </h2>
+        <p className="text-gray-400">Contact me</p>
         <Form />
       </div>
     </section>
