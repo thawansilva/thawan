@@ -24,6 +24,26 @@ export default function Showcase({ homeRef }) {
                 Download CV
               </a>
             </div>
+            <div className="lg:place-self-center">
+              <img
+                src={thawan}
+                loading="lazy"
+                className="mx-auto sm:hidden"
+                alt="thawan silva"
+              />
+              <img
+                src={thawanMd}
+                loading="lazy"
+                className="hidden mx-auto sm:block lg:hidden"
+                alt="thawan silva"
+              />
+              <img
+                src={thawanLg}
+                loading="lazy"
+                className="hidden mx-auto lg:block"
+                alt="thawan silva"
+              />
+            </div>
           </div>
         </div>
       </section>
