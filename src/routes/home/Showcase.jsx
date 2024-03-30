@@ -1,42 +1,49 @@
-import React from "react";
-import "./home.css";
+import thawan from "/img/thawan/thawan.png";
+import thawanMd from "/img/thawan/thawan-md.png";
+import thawanLg from "/img/thawan/thawan-lg.png";
 
-export default function Showcase() {
+export default function Showcase({ homeRef }) {
   return (
     <>
-      <section id="showcase">
-        <div className="container grid">
-          <div className="showcase-text">
-            <h2>Thawan Silva</h2>
-            <h1>The Front end Developer</h1>
-            <p>I build interfaces and responsive websites</p>
-            <div className="social">
+      <section className="py-16" ref={homeRef}>
+        <div className="container px-8 mx-auto">
+          <div className="items-center justify-around md:flex">
+            <div>
+              <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-p-blue via-30% via-darkBlue to-p-purple lg:text-5xl md:text-4xl">
+                Hello, I'm Thawan,
+              </h1>
+              <h2 className="text-3xl lg:text-4xl">Software Engineer</h2>
+              <p className="mt-2 mb-4 text-xl text-gray-400">
+                I build interfaces and responsive websites
+              </p>
               <a
-                href="https://www.linkedin.com/in/thawansilva/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/files/CVThawan.pdf"
+                download="CV Thawan"
+                className="font-bold rounded-3xl py-3 px-5 bg-gradient-to-r from-p-purple via-35% via-darkBlue to-p-blue hover:shadow-darkBlue hover:shadow-md transition duration-150 ease-in"
               >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <a
-                href="https://github.com/thawansilva"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-github"></i>
+                Download CV
               </a>
             </div>
-            <a
-              href="https://drive.google.com/file/d/1aiGiK8WQqWL7eBxUpHzCBzbTEN7rLORi/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta"
-            >
-              CV Here
-            </a>
-          </div>
-          <div className="showcase-img">
-            <img loading="lazy" src="/img/thawan.png" alt="thawan silva" />
+            <div className="lg:place-self-center">
+              <img
+                src={thawan}
+                loading="lazy"
+                className="mx-auto sm:hidden"
+                alt="thawan silva"
+              />
+              <img
+                src={thawanMd}
+                loading="lazy"
+                className="hidden mx-auto sm:block lg:hidden"
+                alt="thawan silva"
+              />
+              <img
+                src={thawanLg}
+                loading="lazy"
+                className="hidden mx-auto lg:block"
+                alt="thawan silva"
+              />
+            </div>
           </div>
         </div>
       </section>

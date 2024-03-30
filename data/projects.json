@@ -2,52 +2,57 @@
   {
     "id": 1,
     "title": "Social Movie",
-    "subtitle": "Social media where you can search and see movie details",
+    "subtitle": "Aplication that you can search and see movie details",
     "alt": "Social Movie website image",
     "urlImg": "/img/project/socialmovie.png",
-    "urlMockup": "/img/mockup/socialmovie.png",
     "url": "https://socialmovie.vercel.app/",
-    "urlGithub": "https://github.com/thawansilva/socialmovie"
+    "urlGithub": "https://github.com/thawansilva/socialmovie",
+    "learning": "Page's management with react router, make fetch requests from a external API, styling with styled components, pagination, component reuse, folder and code organization, besides the improvement of the quality of my code.",
+    "stacks": "Vite, React, React Router, Typescript, Styled Components and React Loading Skeleton."
   },
   {
     "id": 2,
+    "title": "L'originale Order Pizza",
+    "subtitle": "A project that allows the employees of a Pizzeria to make pizza orders and delete.",
+    "alt": "L'originale application image",
+    "urlImg": "/img/project/loriginale.png",
+    "url": "https://loriginale.vercel.app/",
+    "urlGithub": "https://github.com/thawansilva/loriginale",
+    "learning": "Use Firebase Auth for user authentication, storing and querying data using Firebase Firestore, page management with React Router, styling with TailwindCSS and UI creation with Figma.",
+    "stacks": "Vite, React, React Router, Typescript, Firebase Auth, Firestore, TailwindCSS and Figma."
+  },
+  {
+    "id": 3,
     "title": "Clothes E-commerce",
     "subtitle": "A clothes E-commerce that allows you to add products to the cart",
     "alt": "e-commerce website image",
     "urlImg": "/img/project/shoppingcart.png",
-    "urlMockup": "/img/mockup/shoppingcart.png",
     "url": "https://clotheshoppingcart.vercel.app/",
-    "urlGithub": "https://github.com/thawansilva/shopping-cart"
+    "urlGithub": "https://github.com/thawansilva/shopping-cart",
+    "learning": "State management using Context API, styling with TailwindCSS, Local Storage to store cart items and applied Typescript concepts: Types Aliases, Generics, Calls Signatures and manipulation of types.",
+    "stacks": "Vite, React, Typescript and TailwindCSS."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Chapada Diamantina Website",
     "subtitle": "Responsive website with contents about the Chapada Diamantina.",
     "alt": "chapada diamantina website image",
     "urlImg": "/img/project/chapadadiamantina.png",
-    "urlMockup": "/img/mockup/chapadadiamantina.png",
     "url": "https://diamantina.netlify.app/",
-    "urlGithub": "https://github.com/thawansilva/ChapadaDiamantinaWebSite"
-  },
-  {
-    "id": 4,
-    "title": "Random Users Filter",
-    "subtitle": "Filter application made with React, Hooks and fetch API",
-    "alt": "random users website image",
-    "urlImg": "/img/project/randomuser.png",
-    "urlMockup": "",
-    "url": "https://randomusersfilter.netlify.app/",
-    "urlGithub": "https://github.com/thawansilva/Random-Users"
+    "urlGithub": "https://github.com/thawansilva/ChapadaDiamantinaWebSite",
+    "learning": "Page management, CSS effects and responsiveness.",
+    "stacks": "HTML, CSS and Javascript"
   },
   {
     "id": 5,
     "title": "E-commerce Landing Page",
-    "subtitle": "clothes E-commerce landing page made with HTML and CSS",
+    "subtitle": "Clothes E-commerce landing page made with HTML and CSS",
     "alt": "clothes E-commerce website image",
     "urlImg": "/img/project/ecommerce.png",
-    "urlMockup": "",
     "url": "https://ecommerceclothes.netlify.app/",
-    "urlGithub": "https://github.com/thawansilva/eCommerceWebsite"
+    "urlGithub": "https://github.com/thawansilva/eCommerceWebsite",
+    "learning": "",
+    "stacks": "HTML, CSS and Javascript"
   },
   {
     "id": 6,
@@ -55,8 +60,9 @@
     "subtitle": "Facebook login clone made with HTML and CSS",
     "alt": "facebook clone website image",
     "urlImg": "/img/project/facebookclone.png",
-    "urlMockup": "",
     "url": "https://facebookproject.netlify.app/",
-    "urlGithub": "https://github.com/thawansilva/ProjetoFacebook"
+    "urlGithub": "https://github.com/thawansilva/ProjetoFacebook",
+    "learning": "",
+    "stacks": "HTML, CSS and Javascript"
   }
 ]
