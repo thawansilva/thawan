@@ -5,11 +5,7 @@ const Form = () => {
       method="POST"
       className="w-full max-w-[60%] mx-auto lg:flex gap-8 my-4 lg:text-left"
     >
-      <input
-        type="hidden"
-        name="_next"
-        value="https://thawanps.vercel.app/sucess"
-      />
+      <input type="hidden" name="_next" value="/sucess" />
       <input
         type="hidden"
         name="_autoresponse"
@@ -29,7 +25,7 @@ const Form = () => {
         <fieldset className="my-2">
           <legend className="font-bold">Email*</legend>
           <input
-            type="text"
+            type="email"
             name="email"
             required
             placeholder="Your email"
