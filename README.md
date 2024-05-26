@@ -2,7 +2,7 @@
 
 Portfolio built with React, React Router and TailwindCSS;
 
-## Basic Overview - [Live Demo](https://thawan.netlify.app/)
+## Basic Overview - [Live Demo](https://thawanps.vercel.app/)
 
 ## Build/Run
 

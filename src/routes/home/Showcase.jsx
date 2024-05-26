@@ -18,7 +18,7 @@ export default function Showcase({ homeRef }) {
               </p>
               <a
                 href="/files/CVThawan.pdf"
-                download="CV Thawan"
+                download="Thawan's CV"
                 className="font-bold rounded-3xl py-3 px-5 bg-gradient-to-r from-p-purple via-35% via-darkBlue to-p-blue hover:shadow-darkBlue hover:shadow-md transition duration-150 ease-in"
               >
                 Download CV

@@ -56,13 +56,13 @@
   },
   {
     "id": 6,
-    "title": "Facebook page Clone",
-    "subtitle": "Facebook login clone made with HTML and CSS",
-    "alt": "facebook clone website image",
-    "urlImg": "/img/project/facebookclone.png",
-    "url": "https://facebookproject.netlify.app/",
-    "urlGithub": "https://github.com/thawansilva/ProjetoFacebook",
-    "learning": "",
-    "stacks": "HTML, CSS and Javascript"
+    "title": "Tech Fitness Landing Page",
+    "subtitle": "Landing page made with HTML and TailwindCSS",
+    "alt": "Tech Fitness landing page image",
+    "urlImg": "/img/project/techfitness.png",
+    "url": "https://academiatech.netlify.app/",
+    "urlGithub": "https://github.com/thawansilva/academiatech",
+    "learning": "Learned about responsive design and implementing tailwindCSS",
+    "stacks": "Vite, HTML and Tailwindcss"
   }
 ]

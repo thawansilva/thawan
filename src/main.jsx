@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Homepage } from "./routes/home/Homepage";
 import SucessForm from "./routes/sucess/Sucess";
 import NotFound from "./routes/NotFound/NotFound";
-import "./tailwind.css";
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

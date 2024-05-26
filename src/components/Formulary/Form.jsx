@@ -5,7 +5,11 @@ const Form = () => {
       method="POST"
       className="w-full max-w-[60%] mx-auto lg:flex gap-8 my-4 lg:text-left"
     >
-      <input type="hidden" name="_next" value="/sucess" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://thawanps.vercel.app/sucess"
+      />
       <input
         type="hidden"
         name="_autoresponse"
@@ -17,6 +21,7 @@ const Form = () => {
           <input
             type="text"
             name="name"
+            autoComplete="off"
             required
             placeholder="Your name"
             className="w-full px-4 mt-1 text-black border-none rounded-3xl focus:outline-darkBlue"
@@ -28,6 +33,7 @@ const Form = () => {
             type="email"
             name="email"
             required
+            autoComplete="off"
             placeholder="Your email"
             className="w-full px-4 mt-1 text-black border-none rounded-3xl focus:outline-darkBlue"
           />
@@ -38,6 +44,7 @@ const Form = () => {
             type="text"
             name="subject"
             required
+            autoComplete="off"
             placeholder="Subject"
             className="w-full px-4 mt-1 text-black border-none rounded-3xl focus:outline-darkBlue"
           />
