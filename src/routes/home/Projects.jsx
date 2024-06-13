@@ -21,7 +21,7 @@ export function Projects({ projectRef }) {
       )}
       <section className="my-8" ref={projectRef}>
         <div className="container px-8 mx-auto">
-          <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-4xl xl:ml-6">
+          <h2 className="mb-4 text-3xl font-bold md:text-3xl lg:text-4xl xl:ml-6">
             Projects
           </h2>
           <p className="text-xl text-gray-400 xl:ml-6">
@@ -40,8 +40,10 @@ export function Projects({ projectRef }) {
                       src={item.urlImg}
                       alt={item.alt}
                       className="rounded-3xl"
+                      width={500}
+                      height={500}
                     />
-                    <h4 className="my-2 text-2xl font-bold">{item.title}</h4>
+                    <h3 className="my-2 text-2xl font-bold">{item.title}</h3>
                     <p className="mb-2 text-gray-400">{item.subtitle}</p>
                     <button
                       onClick={() => {

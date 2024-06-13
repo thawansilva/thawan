@@ -10,13 +10,15 @@ export function AboutMe({ aboutRef }) {
               About Me
             </h2>
             <p className="xl:ml-6">
-              I am 24 years old, I am from Roraima state in Brazil, Since the
-              end of 2021 I've been studying Software Engineering, building my
-              own projects pursuing a constant improvement of my skills. <br />I
-              am a mix of introvert and extrovert person, who loves playing
-              guitar, travelling and meeting new people and cultures. Many
-              people say that I am very charismatic, energetic and cheerful
-              person.
+              Hello! I’m a 24-year-old from the vibrant state of Roraima in
+              Brazil. Since 2021, I've been diving deep into the world of
+              Software Engineering, constantly honing my skills and creating
+              exciting projects. <br /> I’m a blend of introvert and extrovert,
+              with a passion for playing the guitar, exploring new destinations,
+              and immersing myself in diverse cultures. Friends often describe
+              me as charismatic, energetic, and full of cheer. Whether it's
+              through code or conversation, I love connecting with new people
+              and sharing my enthusiasm for life.
             </p>
           </div>
         </div>

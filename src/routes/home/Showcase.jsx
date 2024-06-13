@@ -30,18 +30,24 @@ export default function Showcase({ homeRef }) {
                 loading="lazy"
                 className="mx-auto sm:hidden"
                 alt="thawan silva"
+                width={308}
+                height={287}
               />
               <img
                 src={thawanMd}
                 loading="lazy"
                 className="hidden mx-auto sm:block lg:hidden"
                 alt="thawan silva"
+                width={452}
+                height={423}
               />
               <img
                 src={thawanLg}
                 loading="lazy"
                 className="hidden mx-auto lg:block"
                 alt="thawan silva"
+                width={375}
+                height={348}
               />
             </div>
           </div>
