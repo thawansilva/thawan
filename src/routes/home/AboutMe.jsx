@@ -10,15 +10,15 @@ export function AboutMe({ aboutRef }) {
               About Me
             </h2>
             <p className="xl:ml-6">
-              Hello! I’m a 24-year-old from the vibrant state of Roraima in
-              Brazil. Since 2021, I've been diving deep into the world of
-              Software Engineering, constantly honing my skills and creating
-              exciting projects. <br /> I’m a blend of introvert and extrovert,
-              with a passion for playing the guitar, exploring new destinations,
-              and immersing myself in diverse cultures. Friends often describe
-              me as charismatic, energetic, and full of cheer. Whether it's
-              through code or conversation, I love connecting with new people
-              and sharing my enthusiasm for life.
+              My story in frontend development starts in 2021, when I started
+              studying HTML, CSS and Javascript. And ever since, I've been
+              creating projects for practicing my skills and learning new stacks
+              like React, TailwindCSS. <br /> I’m a blend of introvert and
+              extrovert, with a passion for playing guitar, samba, travel and
+              immersing myself in diverse cultures. Friends often describe me as
+              charismatic, energetic, and full of cheer. Whether it's through
+              code or conversation, I love connecting with new people and
+              sharing my enthusiasm for life.
             </p>
           </div>
         </div>
