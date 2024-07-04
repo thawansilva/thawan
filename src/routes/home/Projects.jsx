@@ -19,33 +19,34 @@ export function Projects({ projectRef }) {
       {isModalOpen && (
         <Modal itemDetails={itemDetails} closeModal={closeModal} />
       )}
-      <section className="my-8" ref={projectRef}>
+      <section className="py-16" ref={projectRef}>
         <div className="container px-8 mx-auto">
-          <h2 className="mb-4 text-3xl font-bold md:text-3xl lg:text-4xl xl:ml-6">
+          <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-3xl xl:ml-6">
             Projects
           </h2>
-          <p className="text-xl text-gray-400 xl:ml-6">
+          <p className="text-gray-400 xl:ml-6">
             Check out my latest personal projects.
           </p>
-          <div className="flex-wrap justify-between md:flex">
+          <div className="flex flex-wrap justify-between mt-3 lg:gap-4 xl:gap-0">
             {products.map((item, index) => {
               return (
                 index < 6 && (
                   <div
                     key={index}
-                    className="w-full max-w-[80%] md:max-w-[280px] lg:max-w-[360px] mx-auto mt-1 mb-6 border border-p-purple rounded-3xl p-4"
+                    className="w-4/5 max-w-[300px] lg:max-w-[320px] mx-auto mt-1 mb-6 border border-p-purple rounded-3xl p-4"
                   >
                     <img
                       loading="lazy"
                       src={item.urlImg}
                       alt={item.alt}
                       className="rounded-3xl"
-                      width={500}
-                      height={500}
+                      width={300}
+                      height={300}
                     />
                     <h3 className="my-2 text-2xl font-bold">{item.title}</h3>
                     <p className="mb-2 text-gray-400">{item.subtitle}</p>
                     <button
+                      title="Project's details"
                       onClick={() => {
                         handleClick(item);
                       }}
@@ -54,6 +55,7 @@ export function Projects({ projectRef }) {
                       Details
                     </button>
                     <a
+                      title="Project's preview"
                       target="_blank"
                       href={item.url}
                       rel="noopener noreferrer"

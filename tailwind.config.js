@@ -10,6 +10,15 @@ module.exports = {
         darkBlue: "#6978D1",
         "p-purple": "#945DD6",
       },
+      animation: {
+        "loop-scroll": "loop-scroll 40s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - 4rem))" },
+        },
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],

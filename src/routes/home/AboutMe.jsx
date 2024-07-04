@@ -4,7 +4,7 @@ export function AboutMe({ aboutRef }) {
   return (
     <>
       <section ref={aboutRef}>
-        <div className="container px-8 mx-auto">
+        <div className="container pl-8 pr-16 mx-auto">
           <div>
             <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-4xl xl:ml-6">
               About Me

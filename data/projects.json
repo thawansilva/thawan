@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Social Movie",
-    "subtitle": "Aplication that you can search and see movie details",
+    "subtitle": "Aplication where you can search for movie and casting details",
     "alt": "Social Movie website image",
     "urlImg": "/img/project/socialmovie.png",
     "url": "https://socialmovie.vercel.app/",
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "title": "L'originale Order Pizza",
-    "subtitle": "A project that allows the employees of a Pizzeria to make pizza orders and delete.",
+    "title": "L'originale Pizzeria",
+    "subtitle": "A project that allows you to make and manage pizza orders",
     "alt": "L'originale application image",
     "urlImg": "/img/project/loriginale.png",
     "url": "https://loriginale.vercel.app/",
