@@ -20,11 +20,11 @@ export function Projects({ projectRef }) {
         <Modal itemDetails={itemDetails} closeModal={closeModal} />
       )}
       <section className="py-16" ref={projectRef}>
-        <div className="container px-8 mx-auto">
-          <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-3xl xl:ml-6">
+        <div className="container px-8 mx-auto lg:px-20">
+          <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-3xl">
             Projects
           </h2>
-          <p className="text-gray-400 xl:ml-6">
+          <p className="text-gray-400">
             Check out my latest personal projects.
           </p>
           <div className="flex flex-wrap justify-between mt-3 lg:gap-4 xl:gap-0">

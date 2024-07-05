@@ -6,8 +6,8 @@ export default function Hero({ homeRef }) {
   return (
     <>
       <section className="py-16" ref={homeRef}>
-        <div className="container px-8 mx-auto">
-          <div className="items-center justify-around md:flex">
+        <div className="container px-8 mx-auto lg:px-20">
+          <div className="items-center justify-between md:flex">
             <div>
               <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-p-blue via-30% via-darkBlue to-p-purple lg:text-5xl md:text-4xl">
                 Hello, I'm Thawan,
