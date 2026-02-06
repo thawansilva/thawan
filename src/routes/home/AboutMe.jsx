@@ -50,7 +50,7 @@ export function AboutMe({ aboutRef }) {
                     <p className="text-gray-100 sm:text-sm lg:text-base">
                       I learned about of typescript, styling with TailwindCSS
                       and create CRUD application with Firebase, that allowed me
-                      to create projects like L'originale and Shopping Cart
+                      to create projects like L'originale and Shopping Cart.
                     </p>
                   </div>
                 </div>
@@ -80,6 +80,24 @@ export function AboutMe({ aboutRef }) {
                     </p>
                   </div>
                 </div>
+                {/* Stack 5 */}
+                <div className="col-span-4 size-full">
+                  <div className="p-2 bg-indigo-400 rounded-md size-full md:pl-4">
+                    <p className="text-gray-100 sm:text-sm lg:text-base">
+                    I started my Software Engineer graduation at <a href="https://www.42sp.org.br/">42 São Paulo School</a>
+                     with focus on Unix, Shell, C, C++, Pair Programming, OOP, algorithms and data structures.
+                     <br />
+                     I got a job as a Full Stack developer at Cinga Tech company.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-center col-span-1 size-full">
+                  <div className="w-1 h-full bg-indigo-300"></div>
+                  <div className="absolute z-10 flex items-center justify-center text-sm font-bold text-center text-white bg-indigo-400 rounded-full size-10">
+                    2025
+                  </div>
+                </div>
+                <div className="col-span-4 size-full"></div>
               </div>
             </div>
             {/* <p className="xl:ml-6">

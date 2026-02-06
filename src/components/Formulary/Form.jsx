@@ -3,7 +3,7 @@ const Form = () => {
     <form
       action="https://formsubmit.co/twnpsilva@gmail.com"
       method="POST"
-      className="w-full max-w-[60%] mx-auto lg:flex gap-8 my-4 lg:text-left"
+      className="w-[60%] mx-auto lg:flex gap-8 my-4 lg:text-left"
     >
       <input
         type="hidden"
