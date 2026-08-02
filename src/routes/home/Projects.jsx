@@ -1,75 +1,64 @@
-import { useState } from "react";
 import products from "../../../data/projects.json";
-import Modal from "../../components/Modal";
 
 export function Projects({ projectRef }) {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [itemDetails, setItemDetails] = useState({});
-
-  const handleClick = (item) => {
-    setItemDetails(item);
-    setIsModalOpen(true);
-  };
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  const visibleProjects = products.filter(
+    (item) => item.showOnLanding !== false,
+  );
 
   return (
-    <>
-      {isModalOpen && (
-        <Modal itemDetails={itemDetails} closeModal={closeModal} />
-      )}
-      <section className="py-16" ref={projectRef}>
-        <div className="container px-8 mx-auto lg:px-20">
-          <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-3xl">
-            Projects
-          </h2>
-          <p className="text-gray-400">
-            Check out my latest personal projects.
-          </p>
-          <div className="flex flex-wrap justify-between mt-3 lg:gap-4 xl:gap-0">
-            {products.map((item, index) => {
-              return (
-                index < 6 && (
-                  <div
-                    key={index}
-                    className="w-4/5 max-w-[300px] lg:max-w-[320px] mx-auto mt-1 mb-6 border border-p-purple rounded-3xl p-4"
+    <section className="py-16" ref={projectRef}>
+      <div className="container mx-auto px-8 lg:px-20">
+        <h2 className="mb-4 text-2xl font-bold md:text-3xl lg:text-3xl">
+          Projects
+        </h2>
+        <p className="text-gray-400">Check out my latest personal projects.</p>
+
+        <div className="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {visibleProjects.map((item) => (
+            <article
+              key={item.id}
+              className="flex h-full flex-col justify-between rounded-3xl border border-p-purple/60 bg-white/5 p-6 shadow-sm"
+            >
+              <div>
+                {/* <img
+                  loading="lazy"
+                  src={item.urlImg}
+                  alt={item.alt}
+                  className="rounded-3xl object-fit"
+                  width={300}
+                  height={300}
+                /> */}
+                <h3 className="text-xl font-bold mt-2">{item.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-400">
+                  {item.subtitle}
+                </p>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a
+                  href={item.urlGithub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-3xl bg-gradient-to-r from-p-purple via-35% via-darkBlue to-p-blue px-5 py-3 font-semibold transition duration-200 ease-in hover:shadow-md hover:shadow-p-purple"
+                >
+                  Repository
+                </a>
+
+                {item.url && (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-3xl border border-white px-5 py-3 font-semibold transition duration-200 ease-in hover:shadow-md hover:shadow-p-purple"
                   >
-                    <img
-                      loading="lazy"
-                      src={item.urlImg}
-                      alt={item.alt}
-                      className="rounded-3xl"
-                      width={300}
-                      height={300}
-                    />
-                    <h3 className="my-2 text-2xl font-bold">{item.title}</h3>
-                    <p className="mb-2 text-gray-400">{item.subtitle}</p>
-                    <button
-                      title="Project's details"
-                      onClick={() => {
-                        handleClick(item);
-                      }}
-                      className="font-bold rounded-3xl py-3 px-5 bg-gradient-to-r from-p-purple via-35% via-darkBlue to-p-blue hover:shadow-md hover:shadow-p-purple transition duration-200 ease-in"
-                    >
-                      Details
-                    </button>
-                    <a
-                      title="Project's preview"
-                      target="_blank"
-                      href={item.url}
-                      rel="noopener noreferrer"
-                      className="px-5 py-3 ml-4 font-bold transition duration-200 ease-in border border-white rounded-3xl hover:shadow-md hover:shadow-p-purple"
-                    >
-                      Preview
-                    </a>
-                  </div>
-                )
-              );
-            })}
-          </div>
+                    Website
+                  </a>
+                )}
+              </div>
+            </article>
+          ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
