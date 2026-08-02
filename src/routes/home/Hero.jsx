@@ -10,20 +10,12 @@ export default function Hero({ homeRef }) {
           <div className="items-center justify-between md:flex">
             <div>
               <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-p-blue via-30% via-darkBlue to-p-purple lg:text-5xl md:text-4xl">
-                Hello, I'm Thawan,
+                Hello, I'm Thawan
               </h1>
               <h2 className="text-3xl lg:text-4xl">Full Stack developer</h2>
               <p className="mt-2 mb-4 text-gray-400 lg:text-lg">
                 with experience in Typescript, React, Node and TailwindCSS
               </p>
-              <a
-                href="/files/CVThawan.pdf"
-                download="Thawan's CV"
-                title="Thawan's CV"
-                className="font-bold rounded-3xl py-3 px-5 bg-gradient-to-r from-p-purple via-35% via-darkBlue to-p-blue hover:shadow-darkBlue hover:shadow-md transition duration-150 ease-in"
-              >
-                Download CV
-              </a>
               <div className="mt-5">
                 <a
                   aria-label="Visit my Linkedin profile"
